@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NVM_DIR="$HOME/.nvm"
+NVM_DIR="/work/nodejs"
 
 if ! hash git 2>/dev/null; then
   echo >&2 "You need to install git - visit http://git-scm.com/downloads"
